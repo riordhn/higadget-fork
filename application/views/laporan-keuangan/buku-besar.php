@@ -65,7 +65,7 @@
             <?php 
                 $total_debet = 0;
                 foreach ($data_penjualan as $penjualan) { 
-                $debet = $penjualan->total_penjualan - $penjualan->total_diskon - $penjualan->total_cashback;
+                $debet = $penjualan->total_penjualan;
                 $total_debet += $debet;
                 $saldo += $debet;
             ?>
@@ -77,7 +77,23 @@
                     <td class="amount"></td>
                     <td class="amount"><?php echo number_format($saldo, 0, ',', '.') ?></td>
                 </tr>
-            <?php } ?>
+
+                <?php 
+                    if ($penjualan->total_diskon + $penjualan->total_cashback >= 0) {
+                        $diskon = $penjualan->total_diskon + $penjualan->total_cashback;
+                        $saldo -= $diskon;
+                ?>
+                <tr>
+                    <td><?php echo $penjualan->tanggal ?></td>
+                    <td></td>
+                    <td><?php echo "Diskon/Cashback penjualan tanggal ".$penjualan->tanggal ?></td>
+                    <td class="amount"></td>
+                    <td class="amount"><?php echo number_format($diskon, 0, ',', '.') ?></td>
+                    <td class="amount"><?php echo number_format($saldo, 0, ',', '.') ?></td>
+                </tr>
+            <?php 
+                    }
+            } ?>
 
             <tr class="total">
                 <td colspan="3">TOTAL</td>
