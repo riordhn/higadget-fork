@@ -477,14 +477,14 @@ function detailbrg() {
                     $('#bardh').attr('src', base_url+'assets/higadget/snbarcode/'+item.sn_brg+'.jpg').css('width', '100px');
                     $('#dhsn').text(item.sn_brg);
                     $('#H3TSUPP').text(item.nama_supplier);
-                    $('#dhnm').text(item.nama_brg);
-                    $('#dhkon').text(item.kondisi);
-                    $('#dhmerk').text(item.merk);
-                    $('#dhjen').text(item.jenis);
+                    $('#hgnm').text(item.nama_brg);
+                    $('#hgkon').text(item.kondisi);
+                    $('#hgmerk').text(item.merk);
+                    $('#hgjen').text(item.jenis);
                     $('#spek').text(item.spek);
-                    $('#dhdreg').text(datePart);
-                    $('#dhtreg').text(timePart);
-                    $('#dhcab').text(item.nama_toko);
+                    $('#hgdreg').text(datePart);
+                    $('#hgtreg').text(timePart);
+                    $('#hgcab').text(item.nama_toko);
                 });
             }
         });

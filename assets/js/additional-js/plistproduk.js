@@ -242,17 +242,17 @@ function detailbrg() {
                     // var tgl_keluar = item.tgl_keluar;
                     // var datePart = tgl_keluar.split(' ')[0];
                     // var timePart = tgl_keluar.split(' ')[1];
-                    $('#bardh').attr('src', base_url+'assets/higadget/snbarcode/'+item.sn_brg+'.jpg').css('width', '100px');
-                    $('#dhsn').text(item.sn_brg);
-                    // $('#dhsupp').text(item.nama_supplier);
-                    $('#dhnm').text(item.nama_brg);
-                    $('#dhkon').text(item.kondisi);
-                    $('#dhmerk').text(item.merk);
-                    $('#dhjen').text(item.jenis);
+                    $('#barhg').attr('src', base_url+'assets/higadget/snbarcode/'+item.sn_brg+'.jpg').css('width', '100px');
+                    $('#hgsn').text(item.sn_brg);
+                    // $('#hgsupp').text(item.nama_supplier);
+                    $('#hgnm').text(item.nama_brg);
+                    $('#hgkon').text(item.kondisi);
+                    $('#hgmerk').text(item.merk);
+                    $('#hgjen').text(item.jenis);
                     $('#spek').text(item.spek);
-                    // $('#dhdreg').text(datePart);
-                    // $('#dhtreg').text(timePart);
-                    $('#dhcab').text(item.nama_toko);
+                    // $('#hgdreg').text(datePart);
+                    // $('#hgtreg').text(timePart);
+                    $('#hgcab').text(item.nama_toko);
                 });
             }
         });

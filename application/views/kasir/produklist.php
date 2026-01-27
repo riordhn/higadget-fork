@@ -86,39 +86,39 @@
                                   <span>Barcode Produk</span>
                                   <strong>
                                     <div style="font-size:0;position:relative;width:90px;height:35px;">
-                                        <img id="bardh" src="" alt="barcode-dh">
+                                        <img id="barhg" src="" alt="barcode-dh">
                                     </div>
                                   </strong>
                               </li>
                               <!-- SN Produk -->
                               <li class="list-group-item d-flex justify-content-between align-items-center">
                                   <span>SN Produk</span>
-                                  <strong id="dhsn"></strong>
+                                  <strong id="hgsn"></strong>
                               </li>
                               <!-- Suplier -->
                               <!-- <li class="list-group-item d-flex justify-content-between align-items-center">
                                   <span>Supplier</span>
-                                  <strong id="dhsupp"></strong>
+                                  <strong id="hgsupp"></strong>
                               </li> -->
                               <!-- Nama Produk -->
                               <li class="list-group-item d-flex justify-content-between align-items-center">
                                   <span>Nama Produk</span>
-                                  <strong id="dhnm"></strong>
+                                  <strong id="hgnm"></strong>
                               </li>
                               <!-- Kondisi Produk -->
                               <li class="list-group-item d-flex justify-content-between align-items-center">
                                   <span>Kondisi Produk</span>
-                                  <strong id="dhkon"></strong>
+                                  <strong id="hgkon"></strong>
                               </li>
                               <!-- Merek Produk -->
                               <li class="list-group-item d-flex justify-content-between align-items-center">
                                   <span>Merek Produk</span>
-                                  <strong id="dhmerk"></strong>
+                                  <strong id="hgmerk"></strong>
                               </li>
                               <!-- Jenis Produk -->
                               <li class="list-group-item d-flex justify-content-between align-items-center">
                                   <span>Jenis Produk</span>
-                                  <strong id="dhjen"></strong>
+                                  <strong id="hgjen"></strong>
                               </li>
                               <!-- Spesifikasi -->
                               <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -128,17 +128,17 @@
                               <!-- Tanggal Registrasi -->
                               <!-- <li class="list-group-item d-flex justify-content-between align-items-center">
                                   <span>Tanggal Register</span>
-                                  <strong id="dhdreg"></strong>
+                                  <strong id="hgdreg"></strong>
                               </li> -->
                               <!-- Waktu Register -->
                               <!-- <li class="list-group-item d-flex justify-content-between align-items-center">
                                   <span>Waktu Register</span>
-                                  <strong id="dhtreg"></strong>
+                                  <strong id="hgtreg"></strong>
                               </li> -->
                               <!-- Posisi Barang -->
                               <li class="list-group-item d-flex justify-content-between align-items-center">
                                   <span>Posisi Produk</span>
-                                  <strong id="dhcab"></strong>
+                                  <strong id="hgcab"></strong>
                               </li>
                           </ul>
                       </div>

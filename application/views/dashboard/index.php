@@ -4,7 +4,7 @@
             <div class="page-title">
               <div class="row">
                 <div class="col-6">
-                  <h4>Selamat Datang Founder !</h4>
+                  <h4>Hey, Founder !</h4>
                 </div>
                 <div class="col-6">
                   <ol class="breadcrumb">
@@ -52,7 +52,7 @@
                       <div class="col-6">
                         <a href="#" class="cap" data-bs-toggle="modal" data-bs-target="#DetailAssetProduk" data-total_asset="">
                           <div class="card small-widget"> 
-                            <div class="card-body primary"> <span class="f-light">Total Asset Tersedia HI</span>
+                            <div class="card-body primary"> <span class="f-light">Total Asset Tersedia HI GADGET</span>
                               <div class="d-flex align-items-end gap-1">
                                 <div class="spinner-border text-primary d-none" role="status" id="spintp">
                                   <span class="visually-hidden">Memuat...</span>
@@ -318,7 +318,7 @@
                     <a href="#" id="cardtpp">
                       <div class="card widget-hover overflow-hidden">
                         <div class="card-header card-no-border pb-2">
-                          <h5>Total Barang HI</h5>
+                          <h5>Total Barang HI GADGET</h5>
                         </div>
                         <div class="card-body pt-0 count-student">
                           <div class="school-wrapper"> 

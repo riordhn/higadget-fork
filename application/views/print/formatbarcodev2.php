@@ -117,7 +117,7 @@
 
   <!-- Barcode -->
   <div style="text-align: center;">
-    <img class="barcode-img" src="<?= base_url() ?>assets/dhdokumen/snbarcode/<?= $product['sn_brg']; ?>.jpg" alt="Barcode" />
+    <img class="barcode-img" src="<?= base_url() ?>assets/higadget/snbarcode/<?= $product['sn_brg']; ?>.jpg" alt="Barcode" />
   </div>
 
 </div>
@@ -134,7 +134,7 @@
 
       <!-- Barcode -->
       <div style="text-align: center;">
-        <img style="width: 100%; height:38px; object-fit: contain;" src="<?= base_url() ?>assets/dhdokumen/snbarcode/<?= $product['sn_brg']; ?>.jpg" alt="Barcode" />
+        <img style="width: 100%; height:38px; object-fit: contain;" src="<?= base_url() ?>assets/higadget/snbarcode/<?= $product['sn_brg']; ?>.jpg" alt="Barcode" />
       </div>
 
       <!-- Footer always at bottom -->
