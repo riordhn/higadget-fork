@@ -145,7 +145,7 @@ class Welcome_model extends CI_Model {
   }
   public function countTopSales(){
     $this->db->select([
-      "SUM(harga_bayar) + SUM(DISTINCT jml_donasi) as total_jual", 
+      "SUM(harga_bayar) + SUM(DISTINCT jml_donasi) - SUM(hrg_hpp) as total_jual", 
       "id_ksr",
       "nama_ksr"
   ]);
